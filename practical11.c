@@ -10,10 +10,10 @@ int room;
 };
 void hotel();
 struct h s[]={
-{"Hotel 1","Lucknow",3,3000,300},
-{"Hotel 2","Kanpur",2,1500,150},
-{"Hotel 3","Sultanpur",3,1100,250},
-{"Hotel 4","patna",4,100,1150},
+{"Hotel 1","Oggy",3,3000,300},
+{"Hotel 2","Shaktimaan",2,1500,150},
+{"Hotel 3","PushpaRaj",3,1100,250},
+{"Hotel 4","Hillary Clinton",4,100,1150},
 };
 void main()
 {
