@@ -25,4 +25,4 @@ void main()
      puts (str);
 
      getch();
-};
+}
