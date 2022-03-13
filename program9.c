@@ -5,7 +5,7 @@ void main()
 {
      int mat1[10][10], mat2[10][10], mat[10][10], size, i, j, k;
 
-     printf ("Enter rows and columns: ");
+     printf ("Enter rows/columns: ");
      scanf ("%d", &size);
 
      printf ("\n***Enter matrix 1***\n");
