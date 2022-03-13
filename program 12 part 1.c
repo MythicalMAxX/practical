@@ -18,8 +18,7 @@ void main ()
      for (i = 1; i <= n - 1; i++)
      {
           key = *(ar + i);
-          for (j = i - 1; j >= 0 && *(ar + j) > key; j--)
-               *(ar + j + 1) = *(ar + j);
+          for (j = i - 1; j >= 0 && *(ar + j) > key; j--)*(ar + j + 1) = *(ar + j);
           *(ar + j + 1) = key;
      }
 
@@ -28,4 +27,4 @@ void main ()
           printf ("%d ", ar[i]);
 
      getch();
-};
+}
