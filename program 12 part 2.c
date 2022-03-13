@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 
 void main()
 {
@@ -23,5 +24,5 @@ void main()
      printf ("Reversed String: ");
      puts (str);
 
-     return 0;
+     getch();
 };
