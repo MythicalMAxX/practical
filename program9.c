@@ -3,7 +3,7 @@
 
 void main()
 {
-     int mat1[20][20], mat2[20][20], mat[20][20], size, i, j, k;
+     int mat1[10][10], mat2[10][10], mat[10][10], size, i, j, k;
 
      printf ("Enter rows or columns: ");
      scanf ("%d", &size);
