@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-struct h
+struct hotel
 {
 char name[30];
 char address[20];
@@ -9,7 +9,7 @@ int charges;
 int room;
 };
 void hotel();
-struct h s[]={
+struct hotel key[]={
 {"Hotel 1","Oggy",3,3000,300},
 {"Hotel 2","Shaktimaan",2,1500,150},
 {"Hotel 3","PushpaRaj",3,1100,250},
@@ -18,7 +18,6 @@ struct h s[]={
 void main()
 {
 int i;
-char c;
 for(i=0;i<=3;++i)
 {
 printf("\nHOTEL NAME:%s",key[i].name);
@@ -34,7 +33,6 @@ getch();
 void hotel()
 {
 int i,k;
-char c;
 printf("\nSHOW HOTEL ROOM CHARGES LESS THAN:");
 scanf("%d",&k);
 for(i=0;i<=3;++i)
