@@ -21,5 +21,5 @@ void main()
 
      printf ("After sorting: %s", str);
 
-     return 0;
-};
+     getch();
+}
