@@ -31,7 +31,7 @@ printf("\nSHOW HOTEL ROOM CHARGES LESS THAN:");
 scanf("%d",&k);
 for(i=0;i<=3;++i)
 {
-if(s[i].charges<=k)
+if(key[i].charges<=k)
 {
 printf("\n %d.HOTEL NAME:%s",i+1,key[i].name);
 printf("\nADDRESS:%s",key[i].address);
