@@ -8,7 +8,7 @@ int grade;
 int charges;
 int room;
 };
-void hotel();
+
 struct h s[]={
 {"Hotel 1","Lucknow",3,3000,300},
 {"Hotel 2","Kanpur",2,1500,150},
@@ -17,7 +17,7 @@ struct h s[]={
 };
 void main()
 {
-int i;
+int i,k;
 char c;
 for(i=0;i<=3;++i)
 {
@@ -27,14 +27,6 @@ printf("\nGRADE:%d",s[i].grade);
 printf("\nCHARGES:%d",s[i].charges);
 printf("\nNO.OF ROOM:%d",s[i].room);
 }
-hotel();
-getch();
-}
-
-void hotel()
-{
-int i,k;
-char c;
 printf("\nSHOW HOTEL ROOM CHARGES LESS THAN:");
 scanf("%d",&k);
 for(i=0;i<=3;++i)
@@ -48,4 +40,5 @@ printf("\nCHARGES:%d",s[i].charges);
 printf("\nNO.OF ROOM:%d",s[i].room);
 }
 }
+getch();
 }
